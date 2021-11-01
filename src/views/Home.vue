@@ -1,18 +1,21 @@
+<!--
+ * @Description: 系统首页
+ * @Version: 1.0
+ * @Author: xiaozhangtx
+ * @Date: 2021-10-31 22:24:09
+-->
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Map />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import Map from '@/views/Map'
 export default {
   name: 'Home',
   components: {
-    HelloWorld
-  }
+    Map,
+  },
 }
 </script>
